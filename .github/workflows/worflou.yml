@@ -37,4 +37,7 @@ jobs:
 
       - name: check dir
         run: 
-          ls
+          ls 
+      - name: check hide dir 
+        run: 
+          ls -a
