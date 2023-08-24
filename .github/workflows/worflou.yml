@@ -69,4 +69,4 @@ jobs:
           pytest
       - name: Guardando  en bucket s3
         run: |
-          aws s3 cp test_primes.py s3:://carlosbucketsss/
+          aws s3 cp test_primes.py s3://carlosbucketsss/
